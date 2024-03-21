@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basics -->
+    <string name="app_name">GamEngine</string>
+    <string name="app_version_name">Debug 1.0</string>
+
+    <!-- Welcome intro -->
+    <string name="main_title_create_amazing_games">Create amazing games with GamEngine</string>
+    <string name="intro_text_html_javascript_css">If you already know HTML, JavaScript and CSS, this app is for you</string>
+    <string name="all_ready_text">All ready!</string>
+
+    <!-- Buttons -->
+    <string name="button_create_project">Create project</string>
+
+    <!-- Texts -->
+    <string name="title_project_information">Project information</string>
+
+    <!-- Hint -->
+    <string name="hint_project_name">Project name</string>
+    <string name="hint_package_name">Package name</string>
+    <string name="searchbar_hint_search_project">Search project...</string>
+
+    <!-- Menus -->
+    <string name="drawer_menu_telegram">Telegram group</string>
+    <string name="drawer_menu_whatsapp">WhatsApp group</string>
+    <string name="drawer_menu_settings">Settings</string>
+
+    <!-- Alerts -->
+    <string name="alert_project_already_exists">Project already exists!</string>
+    
+    <!-- Settings -->
+    <string name="setting_theme_title">Application Theme</string>
+    <string name="setting_theme_description">Change application theme to yourself</string>
+    <string name="setting_sub_theme_common">Common Red</string>
+    <string name="setting_sub_theme_materialyou">Material You</string>
+</resources>

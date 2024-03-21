@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:layout_weight="1"
+         android:id="@+id/bg">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:background="@drawable/shape_radius_max"
+             android:gravity="center"
+             android:orientation="vertical">
+
+            <ImageView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:src="@drawable/ic_launcher_foreground" />
+
+        </LinearLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:id="@+id/text"
+             android:text="GampiotEngine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="80dp"
+         android:layout_width="match_parent"
+         android:layout_marginBottom="15dp"
+         android:gravity="center">
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:gravity="right|center_vertical "
+             android:translationX="30.0dp"
+             android:layout_weight="1">
+
+            <ProgressBar
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:indeterminate="false"
+                 style="?android:progressBarStyleHorizontal"
+                 android:id="@+id/bar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:gravity="right|center_vertical"
+             android:layout_weight="1">
+
+            <LinearLayout
+                 android:layout_height="50dp"
+                 android:layout_width="50dp"
+                 android:gravity="center"
+                 android:background="@drawable/shape_radius_max"
+                 android:layout_marginRight="15dp"
+                 android:id="@+id/next">
+
+                <ImageView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/ic_next" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>

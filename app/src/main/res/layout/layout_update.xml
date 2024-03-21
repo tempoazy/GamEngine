@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+         android:orientation="vertical"
+         style="@style/Widget.Material3.BottomSheet"
+         android:id="@+id/standard_bottom_sheet">
+
+        <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:id="@+id/drag_handle" />
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:padding="8dp"
+             android:orientation="horizontal"
+             android:paddingBottom="0dp"
+             android:id="@+id/linear_header_update"
+             android:paddingTop="4dp">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingRight="8dp"
+                 android:paddingBottom="0dp"
+                 android:textSize="20sp"
+                 android:paddingLeft="8dp"
+                 android:focusable="false"
+                 android:id="@+id/title"
+                 android:paddingTop="8dp"
+                 android:text="Baixar atualização " />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:id="@+id/linear_body_details_update">
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:paddingRight="8dp"
+                 android:orientation="vertical"
+                 android:paddingBottom="8dp"
+                 android:paddingLeft="8dp"
+                 android:id="@+id/linear_body_details"
+                 android:paddingTop="0dp">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:layout_marginBottom="10dp"
+                     android:paddingRight="8dp"
+                     android:paddingBottom="10dp"
+                     android:textSize="14sp"
+                     android:paddingLeft="8dp"
+                     android:focusable="false"
+                     android:id="@+id/message"
+                     android:paddingTop="0dp"
+                     android:text="Instale a última versão do app para correções de bugs e melhorias " />
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:background="@drawable/shape_card"
+                     android:padding="8dp"
+                     android:orientation="vertical"
+                     android:layout_marginLeft="8dp"
+                     android:layout_marginRight="8dp"
+                     android:id="@+id/linear_whats_new">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:padding="3dp"
+                         android:textSize="14sp"
+                         android:focusable="false"
+                         android:id="@+id/textview7"
+                         android:text="O que há de novo\?" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:padding="3dp"
+                         android:textSize="14sp"
+                         android:focusable="false"
+                         android:id="@+id/text_version_app"
+                         android:text="TextView" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:padding="3dp"
+                         android:textSize="14sp"
+                         android:focusable="false"
+                         android:id="@+id/text_whats_news"
+                         android:text="TextView" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_marginBottom="5dp"
+                 android:gravity="right"
+                 android:padding="8dp"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear_body_install">
+
+                <Button
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:padding="12sp"
+                     android:layout_marginRight="8dp"
+                     android:focusable="false"
+                     android:id="@+id/button_install"
+                     android:text="INSTALAR" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_marginBottom="5dp"
+                 android:gravity="right"
+                 android:padding="8dp"
+                 android:orientation="horizontal"
+                 android:id="@+id/linear_body_update">
+
+                <Button
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:padding="12sp"
+                     android:layout_marginRight="10dp"
+                     android:focusable="false"
+                     android:id="@+id/button_finish"
+                     android:text="MAIS TARDE" />
+
+                <Button
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:padding="12sp"
+                     android:layout_marginRight="8dp"
+                     android:focusable="false"
+                     android:id="@+id/button_update"
+                     android:text="ATUALIZAR" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:layout_marginBottom="5dp"
+                 android:padding="8dp"
+                 android:orientation="vertical"
+                 android:id="@+id/linear_body_progress">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:orientation="horizontal"
+                     android:id="@+id/linear_porcentage_progress">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:padding="8dp"
+                         android:textSize="14sp"
+                         android:focusable="false"
+                         android:layout_weight="1"
+                         android:id="@+id/textview9"
+                         android:text="Baixando atualização..." />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:padding="8dp"
+                         android:textSize="14sp"
+                         android:focusable="false"
+                         android:id="@+id/text_progress"
+                         android:text="0%" />
+
+                </LinearLayout>
+
+                <ProgressBar
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:indeterminate="false"
+                     android:layout_marginLeft="8dp"
+                     android:layout_marginRight="8dp"
+                     style="?android:progressBarStyleHorizontal"
+                     android:focusable="false"
+                     android:id="@+id/progressbar1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="1dp"
+             android:layout_width="match_parent"
+             android:padding="8dp"
+             android:orientation="horizontal"
+             android:layout_marginLeft="8dp"
+             android:layout_marginRight="8dp"
+             android:id="@+id/linear_division">
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:padding="8dp"
+             android:orientation="horizontal"
+             android:id="@+id/linear_footer_update">
+
+            <ImageView
+                 android:layout_height="30dp"
+                 android:layout_width="30dp"
+                 android:src="@drawable/ic_piot"
+                 android:scaleType="centerCrop"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="1dp"
+                 android:focusable="false"
+                 android:id="@+id/imageview1" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:padding="8dp"
+                 android:textSize="20sp"
+                 android:focusable="false"
+                 android:id="@+id/textview8"
+                 android:text="Piot Service's" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

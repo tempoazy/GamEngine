@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:icon="@drawable/ic_telegram"
+            android:id="@+id/telegram"
+            android:title="@string/drawer_menu_telegram"
+            android:iconTint="?attr/colorOnSurface"
+            app:contentDescription="Telegram Group" />
+
+    </group>
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:icon="@drawable/ic_whatsapp"
+            android:iconTint="?attr/colorOnSurface"
+            android:id="@+id/whatsapp"
+            android:title="@string/drawer_menu_whatsapp" />
+
+
+    </group>
+    <group android:checkableBehavior="none">
+
+        <item
+            android:icon="@drawable/ic_settings"
+            android:iconTint="?attr/colorOnSurface"
+            android:id="@+id/settings"
+            android:title="@string/drawer_menu_settings" />
+
+
+    </group>
+
+</menu>
