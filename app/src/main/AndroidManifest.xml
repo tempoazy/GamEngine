@@ -12,7 +12,7 @@
         android:supportsRtl="true" 
         android:theme="@style/AppTheme">
         <activity 
-            android:name="com.gamengine.activities.MainActivity" 
+            android:name="com.gamengine.activites.MainActivity" 
             android:exported="true">
             <intent-filter>
                 <action 
@@ -22,10 +22,10 @@
             </intent-filter>
         </activity>
         <activity
-             android:name="com.gamengine.activities.HomeActivity" />
+             android:name="com.gamengine.activites.HomeActivity" />
         <activity
-             android:name="com.gamengine.activities.EditorActivity" />
+             android:name="com.gamengine.activites.EditorActivity" />
         <activity
-             android:name="com.gamengine.activities.SettingsActivity" />
+             android:name="com.gamengine.activites.SettingsActivity" />
     </application>
 </manifest>
