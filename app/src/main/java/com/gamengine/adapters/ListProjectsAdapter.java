@@ -1,4 +1,4 @@
-package com.gamengine.activities;
+package com.gamengine.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.gamengine.GamEngine; 
 import com.gamengine.R;
 import com.gamengine.classes.FileUtil;
+
 import com.google.android.material.card.MaterialCardView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

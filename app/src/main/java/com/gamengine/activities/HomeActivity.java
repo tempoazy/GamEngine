@@ -29,8 +29,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.gamengine.GamEngine;
 import com.gamengine.R;
-import com.gamengine.activites.SettingsActivity;
+import com.gamengine.activities.SettingsActivity;
 import com.gamengine.classes.FileUtil;
+
+
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.card.MaterialCardView;

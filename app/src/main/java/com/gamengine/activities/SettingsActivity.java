@@ -1,9 +1,11 @@
-package com.gamengine.activites;
+package com.gamengine.activities;
 
 import android.os.Bundle;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.gamengine.R;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SettingsActivity extends AppCompatActivity {
