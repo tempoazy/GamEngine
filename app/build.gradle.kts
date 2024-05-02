@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.gamengine"
-    compileSdk = 33
+    compileSdk = 34
     
     defaultConfig {
         applicationId = "com.gamengine"
         minSdk = 25
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "@string/app_version_name"
         
